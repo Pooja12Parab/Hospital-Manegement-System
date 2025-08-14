@@ -1,0 +1,152 @@
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.edit-btn {
+  padding: 15px 35px;
+  border-radius: 30px;
+  background-color: rgba(75, 22, 200, 0.631);
+  color: white;
+  font-size: 22px;
+}
+
+.admin-dept {
+  width: 100%;
+  margin: 80px;
+}
+.admin-dept table {
+  width: 90%;
+  font-size: 20px;
+  padding: 0;
+}
+.admin-dept table thead tr {
+  border: none;
+}
+.admin-dept table th {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.editbtn {
+  margin: 10px;
+  padding: 0px 30px;
+  border-radius: 10px;
+  background-color: rgb(75, 22, 200);
+  color: white;
+  font-size: 20px;
+}
+.admin-dept td {
+  background-color: white;
+}
+
+/* modal form */
+.modal-form {
+ width: 80%;
+ max-width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  position: fixed;
+  height: 100vh;
+  top: 16%;
+  left: 22%;
+  z-index: 10;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+.doctor-modal{
+ padding: 10px;
+ font-size: 18px;
+
+}
+
+
+.modal-doctor-group label{
+font-size: 20px;
+margin-top: 18px;
+
+}
+.modal-doctor-group input{
+  padding: 10px;
+  margin-top: 18px;
+}
+.modal-form-details {
+  width: 100%;
+  position: relative;
+  /* margin-top: 50px; */
+
+}
+/* 
+.modal-doctor {
+  margin: 0;
+  width: 90%;
+} */
+
+
+.modal-details {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 100px;
+}
+.modal-details h1 {
+  text-align: center;
+  margin: 30px;
+}
+.modal-form-group {
+  /* background-color: antiquewhite; */
+  width: 80%;
+  margin: auto;
+  /* padding: 10px; */
+  /* text-align: center; */
+}
+.modal-form-group input {
+  width: 80%;
+  /* border: none; */
+}
+.add-deptbtn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+  margin-left: 30%;
+}
+.add-deptbtn:hover {
+  background-color: rgb(165, 42, 42);
+}
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+}
+.add-doctor-btn{
+  padding: 10px 20px;
+  font-size: 12px;
+  margin: 5px 40%;
+  
+ }
+
+ .edit-modal{
+  margin: 0;
+  padding: 0;
+  top:15%;
+ }

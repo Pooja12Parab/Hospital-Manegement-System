@@ -1,0 +1,85 @@
+.Mainbg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.subbg1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.subbg1.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.text h3 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.text h1 {
+  font-size: 55px;
+  margin-top: 20px;
+}
+
+.text p {
+  font-size: 25px;
+  margin-top: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text button {
+  padding: 18px 30px;
+  margin-top: 20px;
+  background-color: rgb(100, 149, 52);
+  font-size: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.text button:hover {
+  background-color: rgb(34, 139, 34);
+}
+
+/* Navigation buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.083);
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.402);
+}

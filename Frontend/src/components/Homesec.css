@@ -1,0 +1,51 @@
+.homesec {
+  padding: 80px;
+  width: 100%;
+  height: auto; 
+  color: gray;
+  font-family: Montserrat;
+  margin: auto;
+  
+}
+ .heading h1{
+  color: #0f2b51;
+  font-size: 35px;
+  font-family: Montserrat;
+}
+
+.heading {
+  text-align: center;
+}
+.heading p{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.homesec1 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 80%;
+  margin: auto;
+}
+
+.sec {
+  width: 30%; 
+  /* border: 2px solid black; */
+  margin: 20px 0; 
+  text-align: center;
+  font-size: 18px;
+  padding: 50px 35px; 
+  color: #555555;
+  line-height: 26px;
+  font-family: Montserrat;
+}
+.sec p{
+  margin-top: 15px;
+  
+}
+.sec h3{
+  margin-top: 20px;
+  font-weight: 400;
+}

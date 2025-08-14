@@ -1,0 +1,106 @@
+.signup-container {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/signupbcimg/v870-tang-36.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+/* Signup box */
+.signup {
+  width: 32%;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(31, 199, 191, 0.9);
+  color: white;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Lora", serif;
+}
+.signup h1 {
+  margin: 20px;
+}
+/* Form Styling */
+.signup form {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Form Group: Label & Input Alignment */
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 25px;
+}
+
+/* Labels */
+.form-group label {
+  width: 30%;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* Input Fields */
+.form-group input {
+  width: 65%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
+.form-group input:focus {
+  border: 3px solid rgba(7, 99, 79, 0.845);
+  outline: none;
+}
+
+.form-group input[type="file"] {
+  border: none;
+}
+
+.submitbtn {
+  width: 30%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(233, 250, 249);
+  color: black;
+  border: 2px solid rgba(7, 99, 79, 0.845);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.submitbtn:hover {
+  background-color: rgba(7, 99, 79, 0.845);
+  color: white;
+}
+.signupbtn a {
+  color: white;
+  margin-top: 50px;
+}
+.account{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.account a{
+  color:black;
+  /* font-size: 22px; */
+  margin-left: 15px;
+}
+.account a:hover{
+  color:red;
+  font-weight: bold;
+
+}

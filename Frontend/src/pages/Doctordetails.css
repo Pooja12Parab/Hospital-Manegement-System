@@ -1,0 +1,44 @@
+.doctorinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  padding: 50px;
+  /* border: 2px solid black; */
+}
+.doctor-img{
+    width: 40%;
+}
+.doctor-img img{
+    width: 100%;
+    border: 5px solid rgba(0, 0, 0, 0.632);
+    border-radius: 50%;
+}
+.doctordetails{
+    width: 50%;
+    font-size: 25px;
+}
+.doctordetails h4{
+    color: #0f2b51;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.doctordetails h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #777;
+}
+.doctordetails p{
+    color: #777;
+    font-size: 18px;
+    line-height: 30px;
+    /* letter-spacing: 1px; */
+}
+.condetails{
+    margin-top: 30px;
+}
+.doctorslider{
+    width: 80%;
+    margin: auto;
+}

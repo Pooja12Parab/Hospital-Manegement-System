@@ -1,0 +1,134 @@
+.dash-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.dash-header {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  top: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: bold;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 25%;
+}
+.searchbar input {
+  border: none;
+  outline: none;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Needed for dropdown positioning */
+  color: black;
+  cursor: pointer;
+}
+
+.profile h3 {
+  font-size: 22px;
+  /* font-weight: bold; */
+  margin: 0;
+  padding: 5px 25px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Menu */
+.profile ul {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 95px;
+  left: 20%;
+  transform: translateX(-50%);
+  background: white;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 10;
+}
+
+.profile:hover ul {
+  display: block;
+}
+
+.profile li {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.profile li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.profile1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-img {
+  margin: 50px 60px;
+  font-size: 40px;
+}
+/* Sidebar */
+.sidebar {
+  position: absolute;
+  top: 80px;
+  left: 0;
+
+  background-color: rgba(0, 0, 255, 0.044);
+  /* background-color: rgba(31, 199, 191, 0.113); */
+  width: 20%;
+  height: calc(100vh - 80px);
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  /* color: white; */
+}
+
+.sidebar-1 .sidebar-2 li {
+  list-style: none;
+  margin-top: 20px;
+  color: black;
+}
+.sidebar-1 .sidebar-2 li a {
+  color: blue;
+  font-size: 22px;
+  margin-left: 20px;
+}
+.sidebar-logout {
+  margin: 50px 100px;
+  color: red;
+}
+/* Main Content */
+.main-content {
+  margin-left: 20%;
+  padding: 20px;
+  color: black;
+  font-weight: 900;
+  height: 100vh;
+  font-size: 20px;
+  border: 1px solid black;
+}

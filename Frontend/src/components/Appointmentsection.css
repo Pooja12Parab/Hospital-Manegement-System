@@ -1,0 +1,80 @@
+.appointmentform {
+  background-color: #1565c0;
+  color: white;
+  font-size: 25px;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  /* align-items: center; */
+  border: 5px solid black;
+}
+
+.appointment-info {
+  /* border: 2px solid black; */
+  margin-left: 100px;
+  width: 30%;
+}
+h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+select {
+  font-size: 20px;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+.subbtn {
+  background-color: green;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 14%;
+
+  font-size: 20px;
+}
+
+.appointmentform hr {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.patient-info {
+  width: 80%;
+  /* border: 2px solid black; */
+  /* margin-left: 30px; */
+}
+.patient-info h1 {
+  margin-left: 13%;
+}
+.patient-info hr {
+  margin-left: 13%;
+}
+.patient-info form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 70px;
+}
+.pdetails {
+  width: 40%;
+}
+.pdetails input {
+  margin-bottom: 10px;
+}
+.pappointment-details {
+  width: 40%;
+  margin-bottom: 50px;
+}
