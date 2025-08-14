@@ -7,7 +7,7 @@ Developed a full-stack Hospital Management App enabling admins to manage doctors
 - **Patient Registration & Management:** Register new patients,track appointments.
 - **Doctor Management:** Add, update, and manage doctor profiles, schedules, and specialization.
 - **Appointment Scheduling:** Easy booking and management of appointments for patients and doctors.
-- **Department Management: Create, update, and manage hospital departments with associated doctors.
+- **Department Management:** Create, update, and manage hospital departments with associated doctors.
 
 ## Technologies Used
 
