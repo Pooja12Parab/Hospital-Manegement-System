@@ -15,5 +15,6 @@ Developed a full-stack Hospital Management App enabling admins to manage doctors
 - **Database:**  MongoDB
 - **Frameworks:**  Express.js
 - **Frontend:** HTML, CSS, JavaScript, React.js
+- **Backend:** Node.js
 
 
